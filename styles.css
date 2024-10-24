@@ -1,0 +1,221 @@
+
+*{
+
+   
+     
+}
+@media (max-width: 576px) {
+}
+title{
+font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand{
+  height: auto;
+  background-size:auto;
+  
+}
+h1{
+   text-align: center;
+}
+html, body, ul, li {
+  
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color:#272424;
+    background-color: #f1f1f6;
+}
+li{
+  font-size: larger;
+}
+h3{
+  font-size: larger;
+}
+.iframe-content {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente */
+  align-items: center; /* Alinha verticalmente (se necessário) */
+  height: 100vh; /* Ou qualquer altura que você desejar */
+  margin: 0; /* Remove a margem padrão do body */
+}
+
+iframe {
+  max-width: 100%; /* Para responsividade */
+  border: 0;
+  
+}
+
+.container {
+    padding: 20px 0;
+    background-color: #007bff;
+}
+.navbar-nav {
+    flex-direction: row; /* Garante que os itens sejam alinhados em linha */
+    justify-content: center; /* Centraliza os itens */
+    width: 100%; /* Faz com que a lista ocupe toda a largura */
+    background-color: #007bff;
+   
+
+}
+.hover-container {
+  position: relative; /* Allows text to be positioned over the image */
+  width: 250px; /* Set a fixed width for consistency */
+  height: 250px; /* Set a fixed height for consistency */
+  margin: 10px; /* Space around the container */
+}
+
+.hover-image {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Scale correctly */
+  transition: opacity 0.5s ease; /* Smooth transition */
+}
+
+.hover-text-content {
+  display: none; /* Hidden by default */
+  position: absolute; /* Position over the image */
+  top: 0; /* Align to top */
+  left: 0; /* Align to left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  text-align: center; /* Center text */
+  color: #000000; /* Text color */
+  background-color: transparent; /* Remover o fundo cinza */
+  padding: 10px; /* Padding for text */
+  z-index: 1; /* Ensure text is above the image */
+}
+
+
+.hover-container:hover .hover-image {
+  opacity: 0; /* Hide the image on hover */
+}
+
+.hover-container:hover .hover-text-content {
+  display: block; /* Show the text on hover */
+}
+
+.nav-link:hover {
+  color: #000; /* cor mais escura */
+  text-decoration: none;
+  background-color: #0056b3; /* cor de fundo quando o mouse está sobre o item */
+  border-color: #0056b3; 
+  border-radius: 10px; /* adjust the radius to your liking */
+        border: 1px;
+       
+}
+.nav-link {
+  color: #333; /* cor normal */
+  text-decoration: none;
+}
+.nav-item:hover .nav-link {
+  color: #fff; /* cor do texto quando o mouse está sobre o item */
+}
+.navbar-nav {
+    flex-direction: row; /* Garante que os itens sejam alinhados em linha */
+    justify-content: center; /* Centraliza os itens */
+    width: 100%; /* Faz com que a lista ocupe toda a largura */
+}
+
+.navbar-collapse {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centraliza o conteúdo */
+    width: 100%; /* Garante que ocupa toda a largura do contêiner */
+    
+}
+.nav-item{
+  border-radius: 11px; /* adjust the radius to your liking */
+        border: 1px solid #007bff; 
+        margin-right: 25px;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+.navbar-nav:hover .nav-item:not(:hover) {
+  background-color: #0069d9; /* cor de fundo dos itens não selecionados quando o mouse está sobre a lista */]
+  border-radius: 10px; /* adjust the radius to your liking */
+        
+}
+.h2{
+    font-size: larger;
+
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.image-container img {
+   /* adjust the width to your liking */
+    margin: 10px; /* add some margin around each image */
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  
+  figure  img {
+    margin: 10px; /* add some margin around each figure */
+    width: 250px; /* set the width of the images */
+    height: 250px; /* set the height of the images */
+    object-fit: cover; /* make sure the images are scaled correctly */
+}
+  
+
+  figcaption {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px; /* add some space between image and caption */
+}
+
+footer {
+  width: 100%;
+  min-height: 50px; /* altura mínima do rodapé */
+  height: auto; /* altura automática */
+  background-color: #0056b3; /* cor de fundo do rodapé */
+  color: #fff;
+  padding: 10px;
+
+ 
+}
+.footer__service-list-item{
+  background-color: #0056b3; /* cor de fundo do rodapé */
+  color: #fff;
+}
+.diretorio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.diretorio__esquerda, .diretorio__direita {
+  width: 100%;
+  padding: 50px;
+}
+
+.diretorio__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diretorio__logos__logo {
+  margin: 10px;
+}
+.footer__service-list-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__service-list-item a:hover {
+  color: #fff;
+}
+div.col-md-8{
+  width: 100%;
+}
+ul{
+  
+}
